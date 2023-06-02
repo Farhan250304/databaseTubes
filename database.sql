@@ -2,8 +2,7 @@
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`Ollabank` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
 USE `Ollabank`;
-
-
+SET FOREIGN_KEY_CHECKS = 0;
 
 DROP TABLE IF EXISTS `Akun`;
 
@@ -14,7 +13,7 @@ CREATE TABLE `Akun` (
   `Token` VARCHAR(100),
   `Nama` VARCHAR(100) NOT NULL,
   `Alamat` VARCHAR(200),
-  `No_telepon` VARCHAR(20),
+  `No_telepon` VARCHAR(30),
   `NIK` VARCHAR(16),
   `TanggalLahir` DATE
 );
