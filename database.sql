@@ -158,9 +158,9 @@ CREATE TABLE `Transfer_uang` (
 INSERT INTO `Transfer_uang` (`Transaksi_id`, `BankTujuan`, `BiayaAdmin`, `RekeningPenerima`,`JenisTransfer`)
 VALUES
   (4, 'BRI', 2500, 10001,'Antar Bank'),
-  (6, 'Mandiri', 2500, 10002, 'Antar Bank'),
+ 
   (7, 'Ollabank', 0, 10003,'Sesama Rekening'),
-  (8, 'BRI', 2500, 10004, 'Antar Bank'),
+
   (10, 'Bukopin', 2500, 10005, 'Antar Bank'),
   (12, 'UOB', 100000, 10006, 'Bank Internasional'),
   (11, 'BCA', 2500, 10007, 'Antar Bank'),
@@ -169,24 +169,24 @@ VALUES
   (16, 'BRI', 2500, 10010, 'Antar Bank'),
   (20, 'Ollabank', 0, 10011,'Sesama Rekening'),
   (22, 'OCBC', 100000, 10012,'Bank Internasional'),
-  (24, 'Ollabank', 0, 10013,'Sesama Rekening'),
+
   (26, 'BRI', 2500, 10014, 'Antar Bank'),
-  (28, 'Maybank', 2500, 10015, 'Antar Bank'),
-  (10, 'BNI', 2500, 10016, 'Antar Bank'),
+
+
   (8, 'Ollabank', 0, 10017,'Sesama Rekening'),
   (7, 'Ollabank', 0, 10018, 'Sesama Rekening'),
   (6, 'BRI', 2500, 10019, 'Antar Bank'),
-  (4, 'Mandiri', 2500, 10020, 'Antar Bank'),
-  (20, 'BCA', 2500, 10021,'Antar Bank'),
+ 
+
   (16, 'BRI', 2500, 10022, 'Antar Bank'),
   (13, 'Ollabank', 0, 10023,'Sesama Rekening'),
-  (12, 'Ollabank', 0, 10024,'Sesama Rekening'),  
-  (11, 'BTN', 2500, 10025, 'Antar Bank'),
+
+  
   (28, 'Mandiri', 2500, 10026, 'Antar Bank'),
   (26, 'BCA', 2500, 10027, 'Antar Bank'),
   (24, 'Ollabank', 0, 10028,'Sesama Rekening'),
-  (12, 'Mayapada', 2500, 10029, 'Antar Bank'),
-  (12, 'Ollabank', 0, 10030,'Sesama Rekening');
+
+
 
 
 DROP TABLE IF EXISTS Merchant;
