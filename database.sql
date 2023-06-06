@@ -159,12 +159,12 @@ INSERT INTO `Transfer_uang` (`Transaksi_id`, `BankTujuan`, `BiayaAdmin`, `Rekeni
 VALUES
   (4, 'BRI', 2500, 10001,'Antar Bank'),
  
-  (7, 'Ollabank', 0, 10003,'Sesama Rekening'),
+ 
 
   (10, 'Bukopin', 2500, 10005, 'Antar Bank'),
   (12, 'UOB', 100000, 10006, 'Bank Internasional'),
   (11, 'BCA', 2500, 10007, 'Antar Bank'),
-  (13, 'Ollabank', 0, 10008,'Sesama Rekening'),
+
   (14, 'Ollabank', 0, 10009,'Sesama Rekening'),
   (16, 'BRI', 2500, 10010, 'Antar Bank'),
   (20, 'Ollabank', 0, 10011,'Sesama Rekening'),
@@ -178,13 +178,13 @@ VALUES
   (6, 'BRI', 2500, 10019, 'Antar Bank'),
  
 
-  (16, 'BRI', 2500, 10022, 'Antar Bank'),
+  
   (13, 'Ollabank', 0, 10023,'Sesama Rekening'),
 
   
   (28, 'Mandiri', 2500, 10026, 'Antar Bank'),
-  (26, 'BCA', 2500, 10027, 'Antar Bank'),
-  (24, 'Ollabank', 0, 10028,'Sesama Rekening'),
+  
+  (24, 'Ollabank', 0, 10028,'Sesama Rekening');
 
 
 
@@ -261,5 +261,5 @@ VALUES
 (21, 19, 15000, 'INV-025'),
 
 
-(18, 9, 18000, 'INV-028'),
+(18, 9, 18000, 'INV-028');
 
